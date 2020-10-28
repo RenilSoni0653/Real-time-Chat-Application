@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+            <meta name="viewport" content= "width=device-width, initial-scale=1.0">
+                <title>Chat Real-time chat app</title>        
+                <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>   <!-- This is Server script and you can find it from socket.io website -->
+                <script defer src="js/client.js"></script>   <!-- This client script and it is inside of the Nodesever Folder -->
+            <link rel="stylesheet" href="css/style.css">
+    </head>
+<body>
+    <nav>
+        <img class="logo" src="chat.png">
+    </nav>
+
+    <div class="container">  <!-- This contain messages either left or right and user-name -->
+        <!--<div class="message right">Renil: Hey How are You?</div>
+        <div class="message left">Raj: Bhai Nice, What About You?</div>-->
+    </div>
+
+    <div class="send">
+        <form action="#" id="sendContainer">
+            <input type="text" name="messageInp" id="messageInp">
+            <button type="submit" class="btn">Send</button>
+        </form>
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "ichat",
+  "version": "1.0.0",
+  "description": "This is our chat application",
+  "main": "index.js",
+  "dependencies": {
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Renil Soni",
+  "license": "ISC"
+}
